@@ -66,7 +66,8 @@ console.log('The last item in the cart is', getLast());
 function find( value, array ){
 
 }
-
+let pizza = 'stuff in array'
+console.log(pizza[2]);
 // ----------------------
 // Stretch Goals
 // ----------------------
