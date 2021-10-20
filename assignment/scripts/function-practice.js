@@ -55,7 +55,7 @@ console.log( 'isPositive - should say false', isPositive(-3) );
 //    array is empty, return `undefined`.
 let item =[];
 function getLast( array ) {
-  return item;
+  return array;
 }
 item.push('pizza');
 console.log('The last item in the cart is', getLast());
@@ -64,10 +64,12 @@ console.log('The last item in the cart is', getLast());
 //    value is found and false otherwise. Use a loop;
 //    DO NOT use Array.includes, Array.indexOf, or Array.find
 function find( value, array ){
-
+for (let i = 0; i < item.length; i++) {
+  console.log(item[i]);
+  return true;
 }
-let pizza = 'stuff in array'
-console.log(pizza[2]);
+}
+console.log('find the value', find());
 // ----------------------
 // Stretch Goals
 // ----------------------
