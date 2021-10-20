@@ -55,9 +55,10 @@ console.log( 'isPositive - should say false', isPositive(-3) );
 //    array is empty, return `undefined`.
 let item =[];
 function getLast( array ) {
-  return array;
+  return item.at(-1);
 }
 item.push('pizza');
+item.push('carrots');
 console.log('The last item in the cart is', getLast(item));
 
 // 7. Function to find a value in an array. Return true if the
